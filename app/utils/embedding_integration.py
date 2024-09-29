@@ -1,8 +1,9 @@
 from openai import OpenAI
+from app.core.config import settings
+import requests
+
 
 client = OpenAI(api_key=settings.OPENAI_API_KEY)
-import requests
-from app.core.config import settings
 
 # Function to query OpenAI for embedding
 async def query_openai_embedding(text: str) -> str:

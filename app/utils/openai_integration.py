@@ -1,7 +1,8 @@
 from openai import OpenAI
+from app.core.config import settings
 
-client = OpenAI(api_key=settings.OPENAI_API_KEY,
-api_key=settings.OPENAI_API_KEY)
+client = OpenAI(api_key=settings.OPENAI_API_KEY)
+
 from app.core.config import settings
 
 async def query_openai(prompt: str) -> str:
