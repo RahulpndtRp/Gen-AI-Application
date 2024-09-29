@@ -12,6 +12,8 @@ uvicorn = "^0.31.0"
 streamlit = "^1.38.0"
 openai = "^1.50.2"
 pydantic-settings = "^2.5.2"
+jose = "^1.0.0"
+sqlalchemy = "^2.0.35"
 
 
 [build-system]
