@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     OPENAI_API_KEY: str
     LLAMA_API_URL: str
+    NVIDIA_API_URL : str
     DATABASE_URL: str = "sqlite:///./test.db"
     MULTI_USER_ACCESS: bool = True
 
